@@ -4,33 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f506393c-f99e-4a89-a2df-99e2dbeab91f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Bookmarks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/templates/account/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/bookmark/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/bookmark/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/bookmark/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/bookmark/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/bookmark/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/manage.py" afterDir="false" />
+    <list default="true" id="f506393c-f99e-4a89-a2df-99e2dbeab91f" name="Changes" comment="Add a simple authentication to the app">
+      <change afterPath="$PROJECT_DIR$/bookmark/account/templates/account/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/account/templates/registration/logged_out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/account/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/account/templates/registration/password_change_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/account/templates/registration/password_change_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmark/account/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/account/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmark/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/account/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmark/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/account/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmark/bookmark/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/bookmark/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmark/bookmark/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/bookmark/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +33,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/django/contrib/auth/views.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -70,6 +58,7 @@
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "git-widget-placeholder": "main",
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "C:/Users/HP/PycharmProjects/Bookmarks/bookmark/manage.py",
@@ -81,10 +70,16 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PycharmProjects\Bookmarks\bookmark\account\templates\registration" />
       <recent name="C:\Users\HP\PycharmProjects\Bookmarks\bookmark\account\static\css" />
     </key>
   </component>
@@ -132,8 +127,23 @@
       <option name="presentableId" value="Default" />
       <updated>1713814247404</updated>
       <workItem from="1713814681536" duration="973000" />
-      <workItem from="1713901400370" duration="3219000" />
+      <workItem from="1713901400370" duration="4110000" />
+      <workItem from="1714077669777" duration="5790000" />
+      <workItem from="1714159223989" duration="119000" />
+      <workItem from="1714159484263" duration="398000" />
+      <workItem from="1714160104350" duration="142000" />
+      <workItem from="1714160294632" duration="3416000" />
+      <workItem from="1714209806921" duration="5130000" />
     </task>
+    <task id="LOCAL-00001" summary="Add a simple authentication to the app">
+      <option name="closed" value="true" />
+      <created>1713906120797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713906120797</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +151,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add a simple authentication to the app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a simple authentication to the app" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bookmarks$views.coverage" NAME="views Coverage Results" MODIFIED="1713904044130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookmark/account" />
