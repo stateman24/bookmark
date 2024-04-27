@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f506393c-f99e-4a89-a2df-99e2dbeab91f" name="Changes" comment="Add a simple authentication to the app">
-      <change afterPath="$PROJECT_DIR$/bookmark/account/templates/account/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/templates/registration/password_change_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/account/templates/registration/password_change_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmark/account/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/account/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmark/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/account/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmark/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/account/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmark/bookmark/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/bookmark/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmark/bookmark/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/bookmark/urls.py" afterDir="false" />
+    <list default="true" id="f506393c-f99e-4a89-a2df-99e2dbeab91f" name="Changes" comment="created the change password and password reset url">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +123,7 @@
       <workItem from="1714159484263" duration="398000" />
       <workItem from="1714160104350" duration="142000" />
       <workItem from="1714160294632" duration="3416000" />
-      <workItem from="1714209806921" duration="5130000" />
+      <workItem from="1714209806921" duration="5489000" />
     </task>
     <task id="LOCAL-00001" summary="Add a simple authentication to the app">
       <option name="closed" value="true" />
@@ -143,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713906120797</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created the change password and password reset url">
+      <option name="closed" value="true" />
+      <created>1714215238394</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714215238394</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add a simple authentication to the app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a simple authentication to the app" />
+    <MESSAGE value="created the change password and password reset url" />
+    <option name="LAST_COMMIT_MESSAGE" value="created the change password and password reset url" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bookmarks$views.coverage" NAME="views Coverage Results" MODIFIED="1713904044130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookmark/account" />
