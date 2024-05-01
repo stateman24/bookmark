@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from .forms import LoginForm
+from .forms import LoginForm, UserRegistrationForm
 
 
 def user_login(request):
@@ -32,4 +32,19 @@ def dashboard(request):
 def signout(request):
     logout(request)
     return render(request, "registration/logged_out.html")
+
+
+def register(request):
+    if request.method == "POST":
+        user_form = UserRegistrationForm(request.POST)
+        if user_form.is_valid():
+            user = user_form.save(commit=False)
+            user.set_password(user_form.cleaned_data['password1'])
+            user.save()
+            context = {'user': user}
+            return render(request, 'account/register_done.html', context)
+    else:
+        form = UserRegistrationForm()
+        context = {'form': form}
+        return render(request, 'account/register.html', context)
 
